@@ -5,17 +5,6 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class MinimumSpanningTree {
-    class Edge {
-        int src;
-        int nbr;
-        int weight;
-
-        public Edge(int src, int nbr, int weight) {
-            this.src = src;
-            this.nbr = nbr;
-            this.weight = weight;
-        }
-    }
     class Pair implements Comparable<Pair> {
         int vertex;
         int acquiringVertex;
