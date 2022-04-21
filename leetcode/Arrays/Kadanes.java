@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Arrays;
 
 public class Kadanes {
 
