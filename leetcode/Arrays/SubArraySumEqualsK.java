@@ -3,7 +3,7 @@ package leetcode.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class PrefixSum {
+public class SubArraySumEqualsK {
 
     // Count subarray Equals K
     // if at any point sum is y then check if hasmap has every seen y-k sum
