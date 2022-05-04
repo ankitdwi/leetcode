@@ -17,8 +17,8 @@ public class Diameter {
         DiaPair rightPair = Diameter(node.right);
 
         int myHeight = Math.max(leftPair.height, rightPair.height) + 1;
-        int tempHeight = leftPair.height + rightPair.height + 2;
-        int myDiameter = Math.max(tempHeight, Math.max(leftPair.diameter, rightPair.diameter));
+        int tempDiameter = leftPair.height + rightPair.height + 2;
+        int myDiameter = Math.max(tempDiameter, Math.max(leftPair.diameter, rightPair.diameter));
         DiaPair myPair = new DiaPair(myHeight, myDiameter);
         return myPair;
     }

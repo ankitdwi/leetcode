@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
-public class MinimumSpanningTree {
+public class PrimsMST {
     class Pair implements Comparable<Pair> {
         int vertex;
         int acquiringVertex;
